@@ -4,10 +4,6 @@ const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 5001;
 
-// const corsOptions = {
-//   origin: 'http://localhost:5173/',
-// };
-
 app.use(cors());
 
 app.get('/', (req, res) => {
